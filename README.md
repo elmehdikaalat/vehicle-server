@@ -19,6 +19,8 @@ Then, in another terminal start the server
 node dist/index.js
 ```
 
+
+
 ### Test plan
 
 #### Create a Vehicle
