@@ -12,7 +12,7 @@ export class DeleteVehicleController {
 
   public async handle(req: Request<Parameters>, res: Response): Promise<void> {
     await this.vehicleStore.deleteVehicle({id: parseInt(req.params.id)});
-    res.status(204).send();
+    res.status(200).send();
   }
 }
 
